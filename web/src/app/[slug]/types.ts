@@ -1,9 +1,9 @@
-export type PageProps = {
+export type PagePropssssss = {
   title: string;
   content: any[];
 };
 
-export type Props = {
+export type PageParams = {
   params: {
     slug: string;
   };
