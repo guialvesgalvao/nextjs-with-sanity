@@ -3,7 +3,7 @@ import {defineType, defineField} from 'sanity'
 export default defineType({
   name: 'customButton',
   title: 'Botão Customizado',
-  type: 'object', // Importante: 'object', pois não é um documento de nível superior
+  type: 'object', 
   fields: [
     defineField({
       name: 'text',
