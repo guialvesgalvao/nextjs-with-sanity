@@ -21,7 +21,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   }
 
   return (
-    <article className="prose lg:prose-xl mx-auto p-8">
+    <article className="prose lg:prose-xl h-screen mx-auto p-8 bg-[#f7fafb]">
       <h1>{page.title}</h1>
       <PortableText value={page.content} components={customComponentsConfig} />
     </article>

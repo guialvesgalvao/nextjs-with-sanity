@@ -5,9 +5,9 @@ import imageUrlBuilder from '@sanity/image-url';
 export const config = {
   dataset: process.env.SANITY_DATASET!,
   projectId: process.env.SANITY_PROJECT_ID!,
-  apiVersion: process.env.SANITY_API_VERSION!, // ex: '2025-06-01'
+  apiVersion: process.env.SANITY_API_VERSION!,
   useCdn: process.env.NODE_ENV === 'production',
-  token: process.env.SANITY_TOKEN, // opcional, para preview ou escrita
+  token: process.env.SANITY_TOKEN
 };
 
 export const sanityClient = createClient(config);
